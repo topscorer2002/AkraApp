@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Add Skill</title>
+		<link rel="stylesheet" href="/cssFiles/myStyles.css">
+	</head>
+	<body>
+	
+
+		<div style="text-align: center;">	
+			<form action="/addSkill" method="POST">
+				<label><h2>Add Skill</h2></label>
+				<!--<input type="number" name="formSkill_id" placeholder='skillID'><br>-->
+				<input type="text" name="formSkill" placeholder='skill'><br>
+					<input type="submit" name="formAddSkill" value="Add"><br>
+			</form>
+		
+		<form action ="/getSkills" method="GET">
+			<input type="submit" name="getSkills" value="JSON Export">
+		</form>
+
+
+		</div>
+			<p style="text-align:center"> 
+			 	<a href="/index">Main</a'><br>
+  				<a href="/addApplicant">go to 'Add Applicant'</a'><br>
+  				<a href="/addJob">go to 'Add Job'</a'><br>
+  				<a href="/addJobStatus">go to 'Add Job Status'</a'><br>
+			 	<a href="/addApplicantLevel">go to 'Add Applicant Level'</a'><br>
+  				<a href="/logout">Logout</a'>
+ 				 <!-- more links here -->
+			</p>
+
+	</body>
+
+</html>

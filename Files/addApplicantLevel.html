@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Add Applicant Level</title>
+		<link rel="stylesheet" href="/cssFiles/myStyles.css">
+	</head>
+	<body>
+	
+
+		<div style="text-align: center;">	
+			<form action="/addApplicantLevel" method="POST">
+				<label><h2>Add Applicant Level</h2></label>
+				<!--<input type="number" name="formApplicant_level_ID" placeholder='applicantLevelId'><br>-->
+				<input type="text" name="formApplicant_level" placeholder='applicantLevel'><br>
+				<input type="submit" name="formAddJApplicantLevel" value="Add"><br>
+			</form>
+		
+		<form action ="/getApplicantLevels" method="GET">
+			<input type="submit" name="getApplicantLevels" value="JSON Export">
+		</form>
+
+
+		</div>
+			<p style="text-align:center"> 
+			 	<a href="/index">Main</a'><br>
+  				<a href="/addApplicant">go to 'Add Applicant'</a'><br>
+  				<a href="/addJob">go to 'Add Job'</a'><br>
+  				<a href="/addSkill">go to 'Add Skill'</a'><br>
+  				<a href="/addJobStatus">go to 'Add Job Status'</a'><br>
+  				<a href="/logout">Logout</a'>
+ 				 <!-- more links here -->
+			</p>
+
+	</body>
+
+</html>
