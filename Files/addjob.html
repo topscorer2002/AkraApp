@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Add Job</title>
+		<link rel="stylesheet" href="/cssFiles/myStyles.css">
+	</head>
+	<body>
+	
+
+		<div style="text-align: center;">	
+			<form action="/addJob" method="POST">
+				<label><h2>Add Job</h2></label>
+				<input type="number" name="formJob_id" placeholder='jobID'><br>
+				<input type="text" name="formTitle" placeholder='title'><br>
+				<input type="number" name="formJob_status_ID" placeholder='jobStatusID'><br>
+				<input type="number" name="formSkill_ID" placeholder='sklillID'><br>
+				<input type="submit" name="formAddJob" value="Add"><br>
+			</form>
+		
+		<form action ="/getJobs" method="GET">
+			<input type="submit" name="getJobs" value="JSON Export">
+		</form>
+
+
+		</div>
+			<p style="text-align:center"> 
+			 	<a href="/index">Main</a'><br>
+			 	<a href="/addApplicant">go to 'Add Applicant'</a'><br>
+  				<a href="/logout">Logout</a'>
+ 				 <!-- more links here -->
+			</p>
+
+	</body>
+
+</html>

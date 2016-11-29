@@ -1,0 +1,32 @@
+{
+  "name": "akraapp",
+  "version": "0.0.1",
+  "description": "Das ist die Akra-App auf Server-Seite",
+  "main": "methods.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.3",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "http": "0.0.0",
+    "jade": "^1.11.0",
+    "morgan": "^1.7.0",
+    "mysql": "^2.12.0",
+    "nodemon": "^1.11.0",
+    "socket.io": "^1.6.0",
+    "stylus": "^0.54.5"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "any",
+    "keyword"
+  ],
+  "author": "Falko Carl",
+  "license": "ISC"
+}

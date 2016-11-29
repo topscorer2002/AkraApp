@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Add Applicant</title>
+		<link rel="stylesheet" href="/cssFiles/myStyles.css">
+	</head>
+	<body>
+	
+		<div style="text-align: center;">	
+			<form action="/addApplicant" method="POST">
+				<label><h2>Add Applicant</h2></label>
+				<input type="number" name="formApplicant_id" placeholder='applicantID'><br>
+				<input type="text" name="formPrename" placeholder='prename'><br>
+				<input type="text" name="formSurname" placeholder='surname'><br>
+				<input type="text" name="formPhone" placeholder='phone'><br>
+				<input type="text" name="formEmail" placeholder='email'><br>
+				<input type="text" name="formLocation" placeholder='location'><br>
+				<input type="date" name="formBirth_date" placeholder='birthday'><br>
+				<input type="number" name="formJob_experience_length" placeholder='jobExperienceLength'><br>
+				<input type="number" name="formApplicant_level_id" placeholder='applicantLevelID'><br>
+				<input type="submit" name="formAddApplicant" value="Add">
+			</form>
+
+		<form action ="/getApplicants" method="GET">
+				<input type="submit" name="getApplicants" value="JSON Export">
+		</form>
+
+		</div>
+			<p style="text-align:center">    
+  				<a href="/index">Main</a'><br>
+  				<a href="/addJob">go to 'Add Job'</a'><br>
+  				<a href="/logout">Logout</a'>
+ 				 <!-- more links here -->
+			</p>
+
+
+
+	</body>
+
+</html>
